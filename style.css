@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  align-items: center;
+  height: 150px;
+  position: fixed;
+  width: 100%;
+}
+
+.header-list {
+  display: flex;
+  gap: 100px;
+  margin: 50px;
+  color: white;
+  justify-content: space-between;
+}
+
+.header-logo {
+  height: 120px;
+  width: 120px;
+}
+
+a {
+  color: white;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-toggle {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+main {
+  background-color: gray;
+  padding: 100px;
+  display: flex;
+  flex-direction: ;
+  align-items: center;
+}
