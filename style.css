@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 
 :root {
 }
@@ -14,7 +14,7 @@
 
 header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 10px;
   align-items: center;
   height: 150px;
@@ -27,12 +27,19 @@ header {
   gap: 100px;
   margin: 50px;
   color: white;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-logo {
+  display: flex;
+  justify-content: center;
   height: 120px;
   width: 120px;
+}
+
+.logo {
+  display: none;
 }
 
 a {
@@ -51,9 +58,39 @@ a {
 }
 
 main {
-  background-color: gray;
-  padding: 100px;
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 250px;
   display: flex;
-  flex-direction: ;
-  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: ;
+}
+
+main h1 {
+  font-family: "DM+Serif+Display";
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+main p {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.hero-link {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  padding: 50px;
+  font-size: large;
 }

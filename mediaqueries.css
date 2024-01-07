@@ -3,23 +3,36 @@
     display: flex;
   }
 
+  .logo {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+  }
+
   .header-list {
     flex-direction: column;
     position: absolute;
     right: 0;
-    background-color: var(--details1);
-    width: 25%;
+    background-color:
+    width: 5%;
     padding: 10px;
-    border: 2px solid var(nav-bar);
-    border-radius: 0 0 30px 30px;
+    border: 2px solid white;
+    border-radius: 1 1 10px 10px;
     text-align: center;
     display: none;
+    
   }
 
   #menu-toggle:checked + .header-list {
     display: flex;
     margin-inline: 5px;
-    margin-top: 37px;
-    gap: 10px;
+    margin-top: 0px;
+    gap: 05px;
+
+  }
+
+  .header-logo {
+    display: none;
   }
 }

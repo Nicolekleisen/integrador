@@ -8,25 +8,42 @@
     <link rel="stylesheet" type="text/css" href="./mediaqueries.css" />
   </head>
   <body>
-    <header class="logo">
+    <header class="navbar">
+      <img class="logo" src="./assets/logo.png" alt="Logotipo de la empresa" />
       <nav>
+        <label for="menu-toggle" class="menu-toggle">
+          <img src="./assets/menu.png" alt="Menú desplegable" />
+        </label>
+        <input type="checkbox" id="menu-toggle" />
         <ul class="header-list">
           <li><a href="#">Programas</a></li>
           <li><a href="#">Servicios</a></li>
-        </ul>
-      </nav>
-      <img class="header-logo" src="./assets/logo.png" alt="logo-empresa" />
-      <nav>
-        <ul class="header-list">
+          <li>
+            <img
+              class="header-logo"
+              src="./assets/logo.png"
+              alt="Logotipo de la empresa"
+            />
+          </li>
           <li><a href="#">Blog</a></li>
           <li><a href="#">Contacto</a></li>
         </ul>
-        <label for="menu-toggle" class="menu-toggle">
-          <img src="./assets/menu.png" alt="icono-menu-hamburguesa" />
-        </label>
-        <input type="checkbox" id="menu-toggle" />
       </nav>
     </header>
-    <main></main>
+    <main>
+      <div class="hero-section">
+        <h1>
+          Pequeños pasos <br />
+          a una vida más saludable
+        </h1>
+        <p>
+          Te ayudamos a alcanzar tus metas a tu tiempo<br />y cuidando tus
+          necesidades
+        </p>
+        <nav class="hero-link">
+          <a href="#">¡Comenzá ahora!</a>
+        </nav>
+      </div>
+    </main>
   </body>
 </html>
