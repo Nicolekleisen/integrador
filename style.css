@@ -36,6 +36,7 @@ header {
   justify-content: center;
   height: 120px;
   width: 120px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
 }
 
 .logo {
@@ -64,9 +65,8 @@ main {
   background-attachment: fixed;
   padding: 250px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: ;
+  align-items: center;
 }
 
 main h1 {
@@ -74,6 +74,7 @@ main h1 {
   color: white;
   text-align: center;
   font-size: 50px;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
 }
 
 main p {
@@ -81,6 +82,7 @@ main p {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-size: 15px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -89,8 +91,53 @@ main p {
 
 .hero-link {
   display: flex;
-  justify-content: center;
   font-weight: 400;
-  padding: 50px;
+  padding: 5px;
   font-size: large;
+  background-color: rgb(71, 255, 178);
+  border-radius: 50px;
+  width: fit-content;
+  margin-left: 200px;
+  text-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.about-section {
+  margin-top: 150px;
+  max-width: 600px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.about-section p {
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  max-width: 800px;
+  margin-top: 80px;
+}
+
+.cajas {
+  background-color: #a88669;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  flex: 1 1 0;
+}
+
+.cajas img {
+  width: 150px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.cajas h3 {
+  color: rgb(19, 3, 3);
 }
