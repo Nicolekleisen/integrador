@@ -15,9 +15,9 @@
 header {
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 5px;
   align-items: center;
-  height: 150px;
+  height: 100px;
   position: fixed;
   width: 100%;
 }
@@ -25,7 +25,7 @@ header {
 .header-list {
   display: flex;
   gap: 100px;
-  margin: 50px;
+  margin: 30px;
   color: white;
   justify-content: center;
   align-items: center;
@@ -34,8 +34,8 @@ header {
 .header-logo {
   display: flex;
   justify-content: center;
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   text-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
 }
 
@@ -110,6 +110,12 @@ main p {
   font-weight: 400;
 }
 
+.about-section h2 {
+  color: white;
+  font-size: 30px;
+  margin-top: 200px;
+}
+
 .about-section p {
   font-size: 20px;
 }
@@ -148,36 +154,16 @@ main p {
   justify-content: center;
 }
 
-.contacto {
-  margin-top: 200px;
-  display: flex;
-  color: white;
-  gap: 40px;
-  text-align: left;
-}
-
-.contacto h2 {
-  margin-bottom: 30px;
-}
-
-.redes {
-  display: flex;
-  width: 30px;
-  height: 30px;
-  margin-top: 20px;
-  gap: 10px;
-}
-
 .titulo-form {
   color: white;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .formulario {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20pxpx;
+  margin-top: 20px;
   gap: 50px;
   color: white;
   width: 700px;
@@ -208,4 +194,35 @@ button {
   color: white;
   width: 100px;
   font-weight: 600;
+}
+
+.contacto {
+  margin-top: 100px;
+  display: flex;
+  color: white;
+  gap: 40px;
+  text-align: left;
+}
+
+.contacto h2 {
+  margin-bottom: 30px;
+}
+
+.redes {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+footer {
+  align-items: flex-end;
+  margin-top: 200px;
+}
+
+footer img {
+  height: 100px;
+  width: 100px;
+  align-items: flex-end;
 }
