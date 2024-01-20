@@ -127,17 +127,85 @@ main p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   padding: 20px;
   flex: 1 1 0;
 }
 
 .cajas img {
-  width: 150px;
-  height: 100px;
-  border-radius: 20px;
+  width: 250px;
+  height: 200px;
+  border-radius: 50px;
 }
 
 .cajas h3 {
   color: rgb(19, 3, 3);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.contacto {
+  margin-top: 200px;
+  display: flex;
+  color: white;
+  gap: 40px;
+  text-align: left;
+}
+
+.contacto h2 {
+  margin-bottom: 30px;
+}
+
+.redes {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.titulo-form {
+  color: white;
+  margin-top: 100px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20pxpx;
+  gap: 50px;
+  color: white;
+  width: 700px;
+}
+
+.datos {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  font-weight: 600;
+}
+
+.mensaje {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 60px;
+  font-weight: 600;
+}
+
+.datos input,
+textarea {
+  opacity: 40%;
+}
+
+button {
+  background-color: #a88669;
+  color: white;
+  width: 100px;
+  font-weight: 600;
 }
