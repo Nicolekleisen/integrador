@@ -1,4 +1,8 @@
 @media (max-width: 992px) {
+  main {
+    padding: 0;
+  }
+
   .menu-toggle {
     display: flex;
   }
@@ -38,5 +42,63 @@
 
   .header-logo {
     display: none;
+  }
+
+  .hero-section {
+    margin-top: 200px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-section {
+    max-width: 500px;
+  }
+
+  .container {
+    flex-direction: column;
+    max-width: 400px;
+  }
+
+  .formulario {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacto {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .container,
+  .about-section {
+    padding: 30px;
+  }
+
+  iframe {
+    width: 350px;
+    height: 200px;
+  }
+
+  .hero-section {
+    max-width: 500px;
+  }
+
+  .hero-link {
+    margin-left: 35%;
+  }
+
+  header {
+    max-width: 432px;
+  }
+
+  .menu-toggle {
+    right: 0;
+  }
+
+  .logo {
+    margin-right: 70%;
   }
 }
